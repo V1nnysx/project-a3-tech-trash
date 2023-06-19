@@ -7,14 +7,6 @@ public class UserLogin {
     private String passwordLogin;
     private String emailLogin;
 
-    /*public UserLogin(int id, String userLogin, String passwordLogin) {
-        this.id = id;
-        this.userLogin = userLogin;
-        this.passwordLogin = passwordLogin;
-        //this.emailLogin = emailLogin;
-
-    }*/
-
     public String getUserLogin() {
         return userLogin;
     }
@@ -30,12 +22,5 @@ public class UserLogin {
     public void setPasswordLogin(String passwordLogin) {
         this.passwordLogin = passwordLogin;
     }
-
-    /*public String getEmailLogin(){
-        return emailLogin;
-    }
     
-    public void setEmailLogin(String emailLogin){
-        this.emailLogin = emailLogin;
-    }*/
 }

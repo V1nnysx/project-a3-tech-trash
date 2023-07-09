@@ -2,13 +2,16 @@ package view;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class QuizForm extends javax.swing.JFrame {
 
     String[] questions = {"A reciclagem de materiais reduz a necessidade de extrair recursos naturais, como madeira, minerais e petróleo.",
         "O desmatamento é uma das principais causas da perda de biodiversidade.",
         "A poluição do ar causada por emissões de gases tóxicos tem impactos negativos na saúde humana.",
-        " A adoção de tecnologias limpas e eficientes é um dos pilares do ODS 12.",
+        "A adoção de tecnologias limpas e eficientes é um dos pilares do ODS 12.",
         "A conservação de ecossistemas naturais, como florestas, ajuda a proteger a biodiversidade.",
         "A agricultura intensiva com uso excessivo de agrotóxicos não causa impactos negativos meio ambiente.",
         "A educação ambiental é essencial para conscientizar sobre a importância da preservação do meio ambiente.",
@@ -244,6 +247,7 @@ public class QuizForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton_Next_QActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Next_QActionPerformed
+
 
         if (jButton_Next_Q.getText().equals("Refazer o Quiz!")) {
             enableNextbutton(false);
